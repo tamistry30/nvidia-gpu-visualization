@@ -40,7 +40,7 @@ This project investigates how **NVIDIA’s innovation strategy and GPU release t
 ## 📂 Project Structure
 
 nvidia-gpu-visualization/
-├── data/                     # Raw datasets (CSV files)
+├── datasets/                  # Raw datasets (CSV files)
 │   ├── GPU_SPECS.csv
 │   ├── GPU_UserBenchmarks.csv
 │   ├── NVIDIA (1999 -11.07.2023).csv
@@ -48,19 +48,20 @@ nvidia-gpu-visualization/
 │   ├── AMD (...).csv
 │   └── [Other brand data files]
 │
-├── scripts/                  # R scripts for data cleaning, analysis, and plotting
+├── scripts/                   # R scripts for data cleaning, analysis, and plotting
 │   ├── 01_cleaning.R
 │   ├── 02_merge_transform.R
 │   ├── 03_visualizations.R
 │   └── 04_final_export.R
 │
-├── output/                   # Final outputs and visuals
-│   ├── NVIDIA_GPU_Poster.pdf
-│   ├── benchmark_plot.png
-│   ├── market_share_plot.png
-│   └── [Other charts or thumbnails]
+├── output/                    # Final outputs and visuals
+│   ├── Poster.pdf
+│   
+├── assets/                    # Illustrator files or fonts (optional)
+│   └── POSTER.ai
 │
-├── .gitignore                # Files to ignore in version control
-├── LICENSE                   # MIT license (or your preferred one)
-├── README.md                 # Project documentation
-└── poster_thumbnail.jpg      # Optional preview image for README display
+├── poster_thumbnail.jpg       # Optional preview image for README display
+├── .gitignore                 # Files to ignore in version control
+├── LICENSE                    # MIT license (or your preferred one)
+└── README.md                  # Project documentation
+
